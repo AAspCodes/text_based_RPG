@@ -1,11 +1,11 @@
 - description: "the bottom of the hill"
-  paths:
-    west : 22 
+  directions:
+    west: 22
     east: 12
-    south: 15  
+    south: 15
   loot: "old boots"
   enemy:
 - description: ""
-  paths:
+  directions:
   loot:
   enemy:
