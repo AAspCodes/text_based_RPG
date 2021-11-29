@@ -6,11 +6,11 @@ def read_from_yaml(file_path):
         return yaml.safe_load(f)
 
 
-def readEnemies():
+def read_enemies():
     return read_from_yaml("enemies.yaml")
 
 
-def readSteps():
+def read_steps():
     return read_from_yaml("steps.yaml")
 
 def game_loop():
