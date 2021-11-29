@@ -1,4 +1,5 @@
 import yaml
+from Step import Step
 
 
 def read_from_yaml(file_path):
