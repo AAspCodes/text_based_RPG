@@ -4,6 +4,7 @@
     east: 12
     south: 15  
   loot: "old boots"
+  enemy:
 - description: ""
   paths:
   loot:
