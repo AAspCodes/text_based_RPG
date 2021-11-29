@@ -13,6 +13,18 @@ def readEnemies():
 def readSteps():
     return read_from_yaml("steps.yaml")
 
+def game_loop():
+    enemies = readEnemies()
+    steps = readSteps()
+    step_pos = 0
+
+    while True:
+        step = steps[step_pos]
+        print(step["description"])
+        print("choose your next step")
+        for index, direction in enumerate(step["paths"]):
+            print(f"{index}  {direction}")
+        choice = input()
 
 if __name__ == "__main__":
-    pass
+    game_loop()
