@@ -14,7 +14,11 @@ def read_enemies():
 def read_steps():
     return read_from_yaml("steps.yaml")
 
+
+def handle_input():
     pass
+
+
 def game_loop():
     enemies = read_enemies()
     steps = read_steps()
